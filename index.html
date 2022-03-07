@@ -20,10 +20,13 @@
   <body>
     <!-- Sidebar -->
     <aside>
+      <!-------------------- sidebar header -------------------->
       <header class="header">
         <img src="./images/logo.png" alt="Logo for the website" class="logo" />
         <h1>Rarity Sniper</h1>
       </header>
+
+      <!-------------------- navbar -------------------->
       <nav class="navbar">
         <ul>
           <li>
@@ -53,6 +56,8 @@
           </li>
         </ul>
       </nav>
+
+      <!-------------------- search box -------------------->
       <div class="search_bar">
         <input
           type="search"
@@ -62,22 +67,29 @@
           size="25"
         />
       </div>
+
+      <!-------------------- join community -------------------->
       <h2 class="join_community">Join our community</h2>
       <ul>
-        <li class="community_links">
+        <li class="community_links twitter">
           <a href="#" class="social_links twitter"
             ><i class="fa-brands fa-twitter"></i>Twitter</a
           >
           <span class="followers">364k</span> Followers
         </li>
-        <li class="community_links">
+        <li class="community_links discord">
           <a href="#" class="social_links discord"
             ><i class="fa-brands fa-discord"></i>Discord</a
           >
           <span class="members">300k</span> Members
         </li>
-        <li class="community_links">
+        <li class="community_links dark_mode">
+          <i class="fa-solid fa-moon"></i>
           <a href="#" class="dark_mode">Dark Mode</a>
+          <label class="switch">
+            <input type="checkbox" checked />
+            <span class="slider round"></span>
+          </label>
         </li>
         <li class="community_links"><a href="" class="tos">Terms of use</a></li>
       </ul>
