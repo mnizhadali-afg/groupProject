@@ -4,6 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>NFT Website</title>
+
+    <!-- local CSS File -->
+    <link rel="stylesheet" href="./css/app.css" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- Sidebar -->
@@ -15,46 +27,59 @@
       <nav class="navbar">
         <ul>
           <li>
-            <a href="#" class="nav-links">NFT Collection</a>
+            <a href="#" class="nav-links"
+              ><i class="fa-solid fa-book"></i>NFT Collection</a
+            >
           </li>
           <li>
-            <a href="#" class="nav-links">NFT Drops Calendar</a>
+            <a href="#" class="nav-links"
+              ><i class="fa-solid fa-calendar-days"></i>NFT Drops Calendar</a
+            >
           </li>
           <li>
-            <a href="#" class="nav-links">NFT News</a>
+            <a href="#" class="nav-links"
+              ><i class="fa-solid fa-bullhorn"></i>NFT News</a
+            >
           </li>
           <li>
-            <a href="#" class="nav-links">Stats</a>
+            <a href="#" class="nav-links"
+              ><i class="fa-solid fa-signal"></i>Stats</a
+            >
           </li>
           <li>
-            <a href="#" class="nav-links">Get Listed</a>
+            <a href="#" class="nav-links"
+              ><i class="fa-solid fa-hand-point-right"></i>Get Listed</a
+            >
           </li>
         </ul>
       </nav>
       <div class="search_bar">
         <input
-          type="text"
+          type="search"
           name="search"
           class="search"
-          value="Search Collection"
+          placeholder="Search Collection"
+          size="25"
         />
       </div>
       <h2 class="join_community">Join our community</h2>
       <ul>
-        <li>
-          <a href="#" class="social_links">
-            Twitter <span class="followers">364k</span> Followers
-          </a>
+        <li class="community_links">
+          <a href="#" class="social_links twitter"
+            ><i class="fa-brands fa-twitter"></i>Twitter</a
+          >
+          <span class="followers">364k</span> Followers
         </li>
-        <li>
-          <a href="#" class="social_links">
-            Twitter <span class="members">300k</span> Members
-          </a>
+        <li class="community_links">
+          <a href="#" class="social_links discord"
+            ><i class="fa-brands fa-discord"></i>Discord</a
+          >
+          <span class="members">300k</span> Members
         </li>
-        <li>
+        <li class="community_links">
           <a href="#" class="dark_mode">Dark Mode</a>
         </li>
-        <li><a href="" class="tos">Terms of use</a></li>
+        <li class="community_links"><a href="" class="tos">Terms of use</a></li>
       </ul>
     </aside>
 
@@ -79,18 +104,34 @@
           <img
             src="./images/collections/senior_gulf.jpg"
             alt="senior ape gulf"
+            class="card_img"
           />
           <h4>Senior Age Gulf Club</h4>
           <div class="first_col">
             <ul>
-              <li><a href="#">ETH</a></li>
-              <li><a href="#">Website</a></li>
+              <li>
+                <a href="#"
+                  ><i class="fa-brands fa-ethereum"
+                    ><abbr title="Ethereum">ETH</abbr></i
+                  ></a
+                >
+              </li>
+              <li>
+                <a href="#">Website</a>
+                <i class="fa-solid fa-globe"></i>
+              </li>
             </ul>
           </div>
           <div class="second_col">
             <ul>
-              <li><a href="#">Twitter</a></li>
-              <li><a href="#">Discord</a></li>
+              <li>
+                <a href="#">Twitter</a>
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li>
+                <a href="#">Discord</a>
+                <i class="fa-brands fa-discord"></i>
+              </li>
             </ul>
           </div>
         </div>
