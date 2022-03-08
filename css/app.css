@@ -49,8 +49,9 @@ aside {
   justify-content: center;
   gap: 1.75rem;
   align-items: center;
-  padding: 1rem 0;
   border-bottom: 1px solid var(--clr-bg);
+  padding: 1rem 0;
+  margin-bottom: 3rem;
 }
 
 .logo {
@@ -87,15 +88,15 @@ aside {
 }
 .soon {
   text-transform: uppercase;
-  background-color: #BEBEBE;
+  background-color: #bebebe;
   color: var(--clr-netural);
-  padding: .1rem .5rem;
+  padding: 0.1rem 0.5rem;
   font-weight: 500;
 }
 #soon:hover {
   cursor: default;
   color: var(--clr-secondary);
-} 
+}
 /* ///////////////// SEARCH BOX ///////////////// */
 .search_bar {
   display: flex;
@@ -124,7 +125,7 @@ input[type="search"]::placeholder {
   font-size: 1.1rem;
   font-weight: 500;
   margin-top: 2rem;
-  margin-left: .5rem;
+  margin-left: 0.5rem;
   letter-spacing: 1px;
 }
 .join_community:hover {
@@ -149,16 +150,21 @@ a.social_link {
   color: var(--clr-twitter);
 }
 .twitter:hover {
+  background: rgba(0, 217, 255, 0.05);
   color: var(--clr-twitter);
+  transition: background 0.5s;
 }
 .discord {
   color: var(--clr-discord);
 }
 .discord:hover {
+  background: rgba(127, 79, 216, 0.05);
   color: var(--clr-discord);
+  transition: background 0.5s;
 }
 li .dark_mode {
   padding: 0.1rem 1rem;
+  padding-left: 0;
 }
 .dark_mode,
 .fa-moon {
@@ -166,6 +172,20 @@ li .dark_mode {
 }
 .fa-brands {
   margin-right: 0.3rem;
+}
+.tos {
+  border: none;
+  text-align: left;
+  font-size: 1.25rem;
+  font-family: "Smooch Sans", sans-serif;
+  text-decoration: underline;
+}
+.seperator {
+  border-left: 1px solid;
+  border-width: 50%;
+  margin-left: 1rem;
+  padding-left: 0.5rem;
+  cursor: pointer;
 }
 
 /* ///////////////// DARK-MODE BUTTON ///////////////// */
@@ -258,7 +278,7 @@ main {
 /* ///////////////// main header ///////////////// */
 .collection {
   padding: 2rem;
-  scroll-behavior: smooth;
+  padding-top: 0;
 }
 .collection_title {
   font-size: 2.2rem;
@@ -274,10 +294,11 @@ main {
 .cards {
   display: flex;
   gap: 1rem;
-  /* overflow-x: scroll; */
   padding: 1rem 0;
+  cursor: pointer;
 }
 .card {
+  position: relative;
   background-color: var(--clr-netural);
   width: 15vw;
   border-radius: 8px;
@@ -342,4 +363,16 @@ abbr[title="Ethereum"] {
 .footer_links:hover {
   color: var(--clr-secondary);
   opacity: 0.75;
+}
+.featured {
+  position: absolute;
+  top: 0.8rem;
+  left: 1rem;
+  background-color: var(--clr-main);
+  color: var(--clr-netural);
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 0.2rem 0.8rem;
 }
