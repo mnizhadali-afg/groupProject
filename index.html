@@ -30,29 +30,30 @@
       <nav class="navbar">
         <ul>
           <li>
-            <a href="#" class="nav-links"
-              ><i class="fa-solid fa-book"></i>NFT Collection</a
-            >
+            <a href="#collections" class="nav-links">
+              <i class="fa-solid fa-book"></i>NFT Collection
+            </a>
           </li>
           <li>
-            <a href="#" class="nav-links"
-              ><i class="fa-solid fa-calendar-days"></i>NFT Drops Calendar</a
-            >
+            <a href="#7day_sells" class="nav-links">
+              <i class="fa-solid fa-calendar-days"></i>7 Day Sells Callendar
+            </a>
           </li>
           <li>
-            <a href="#" class="nav-links"
-              ><i class="fa-solid fa-bullhorn"></i>NFT News</a
-            >
+            <a href="#solana" class="nav-links">
+              <i class="fa-solid fa-bullhorn"></i>Solana Collections
+            </a>
           </li>
           <li>
-            <a href="#" class="nav-links"
-              ><i class="fa-solid fa-signal"></i>Stats</a
-            >
+            <a href="#" class="nav-links" id="soon">
+              <i class="fa-solid fa-signal"></i>Stats
+            </a>
+            <span class="soon">soon</span>
           </li>
           <li>
-            <a href="#" class="nav-links"
-              ><i class="fa-solid fa-hand-point-right"></i>Get Listed</a
-            >
+            <a href="#" class="nav-links">
+              <i class="fa-solid fa-hand-point-right"></i>Get Listed
+            </a>
           </li>
         </ul>
       </nav>
@@ -72,15 +73,15 @@
       <h2 class="join_community">Join our community</h2>
       <ul>
         <li class="community_links twitter">
-          <a href="#" class="social_links twitter"
-            ><i class="fa-brands fa-twitter"></i>Twitter</a
-          >
+          <a href="#" class="social_links twitter">
+            <i class="fa-brands fa-twitter"></i>Twitter
+          </a>
           <span class="followers">364k</span> Followers
         </li>
         <li class="community_links discord">
-          <a href="#" class="social_links discord"
-            ><i class="fa-brands fa-discord"></i>Discord</a
-          >
+          <a href="#" class="social_links discord">
+            <i class="fa-brands fa-discord"></i>Discord
+          </a>
           <span class="members">300k</span> Members
         </li>
         <li class="community_links dark_mode">
@@ -97,56 +98,581 @@
 
     <!-- Main Part -->
     <main id="main">
+      <!-- header -->
       <section>
-        <header>
-          <h2 class="page_title">The #1 source for NFT rarity</h2>
-          <p class="headline">
+        <header class="main_header">
+          <h2>The #1 source for NFT rarity</h2>
+          <p>
             Rarity Sniper is the best way to check the rarity of 1176 NFT
             collections on Ethereum, Solana & more
           </p>
         </header>
       </section>
-      <section class="collection">
+
+      <!-- collections -->
+      <section class="collection" id="collections">
         <header>
           <h3 class="collection_title">Explore the latest collections</h3>
         </header>
 
-        <!-- Collections first row -->
-        <div class="card">
-          <img
-            src="./images/collections/senior_gulf.jpg"
-            alt="senior ape gulf"
-            class="card_img"
-          />
-          <h4>Senior Age Gulf Club</h4>
-          <div class="first_col">
-            <ul>
-              <li>
-                <a href="#"
-                  ><i class="fa-brands fa-ethereum"
-                    ><abbr title="Ethereum">ETH</abbr></i
-                  ></a
-                >
-              </li>
-              <li>
-                <a href="#">Website</a>
-                <i class="fa-solid fa-globe"></i>
-              </li>
-            </ul>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="./images/collections/senior_gulf.jpg"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Senior Age Gulf Club</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <div class="second_col">
-            <ul>
-              <li>
-                <a href="#">Twitter</a>
-                <i class="fa-brands fa-twitter"></i>
-              </li>
-              <li>
-                <a href="#">Discord</a>
-                <i class="fa-brands fa-discord"></i>
-              </li>
-            </ul>
+
+          <div class="card">
+            <img
+              src="./images/collections/real-punks.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Real Punks</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/meowsdao.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Meowsdao</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/pirates-of-the-metaverse.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Cryptoyatchs</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/Untitled-1.jpg"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Cryptoyatchs</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
+      </section>
+
+      <!-- 7 day sells -->
+      <section class="collection" id="7day_sells">
+        <header>
+          <h3 class="collection_title">Top 7 day selling collections</h3>
+        </header>
+
+        <!-- row -->
+        <div class="cards">
+          <div class="card">
+            <img
+              src="./images/collections/dour-darcels.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Senior Age Gulf Club</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/real-punks.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Real Punks</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/wild-goat-gang.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Meowsdao</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/senior-ape-golf-club.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Cryptoyatchs</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/Untitled-1.jpg"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Cryptoyatchs</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- solona -->
+      <section class="collection" id="solana">
+        <header>
+          <h3 class="collection_title">Solana collections</h3>
+        </header>
+
+        <!-- row -->
+        <div class="cards">
+          <div class="card">
+            <img
+              src="./images/collections/emotes-by-heart-you.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Senior Age Gulf Club</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/meta-moguls-genesis.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Real Punks</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/meowsdao.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Meowsdao</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/pirates-of-the-metaverse.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Cryptoyatchs</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <img
+              src="./images/collections/feline-fiendz.webp"
+              alt="senior ape gulf"
+              class="card_img"
+            />
+            <div class="card_body">
+              <h4>Cryptoyatchs</h4>
+              <div class="card_footer">
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="crypto footer_links">
+                      <i class="fa-brands fa-ethereum"></i>
+                      <abbr title="Ethereum">ETH</abbr>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Website</a>
+                    <i class="fa-solid fa-globe"></i>
+                  </li>
+                </ul>
+                <ul>
+                  <li class="first_col">
+                    <a href="#" class="footer_links">Twitter</a>
+                    <i class="fa-brands fa-twitter"></i>
+                  </li>
+                  <li>
+                    <a href="#" class="footer_links">Discord</a>
+                    <i class="fa-brands fa-discord"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- learn more -->
+      <section class="collection">
+        <header>
+          <h3>
+            <a href="#" class="collection_title"
+              >Learn more about Rarity Sniper and NFT Rarity
+              <i class="fa-solid fa-circle-exclamation"></i
+            ></a>
+          </h3>
+        </header>
       </section>
     </main>
   </body>
